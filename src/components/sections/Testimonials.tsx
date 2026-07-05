@@ -23,9 +23,14 @@ export function Testimonials() {
           <div className="hairline w-40 mt-10" />
         </FadeIn>
 
-        <div className="mt-16 grid md:grid-cols-3 gap-10">
+        {/* Mobile: horizontal snap-scroll. md+: 3-column grid. */}
+        <div className="mt-16 flex md:grid md:grid-cols-3 gap-8 md:gap-10 overflow-x-auto md:overflow-visible snap-x md:snap-none snap-mandatory -mx-6 md:mx-0 px-6 md:px-0 pb-4 md:pb-0 scrollbar-hide">
           {items.map((key, i) => (
-            <FadeIn key={key} delay={i * 0.1}>
+            <FadeIn
+              key={key}
+              delay={i * 0.1}
+              className="snap-start shrink-0 w-[85%] sm:w-[70%] md:w-auto md:shrink"
+            >
               <figure className="h-full flex flex-col">
                 <span
                   className="font-italic italic text-5xl md:text-6xl text-porcelain leading-none"
@@ -48,6 +53,11 @@ export function Testimonials() {
             </FadeIn>
           ))}
         </div>
+
+        {/* Mobile-only affordance: swipe hint */}
+        <p className="md:hidden mt-4 text-[10px] tracking-[0.25em] uppercase text-porcelain-dim/70">
+          ← Swipe →
+        </p>
       </div>
     </section>
   );

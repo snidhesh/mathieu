@@ -16,12 +16,27 @@ export function StickyContactCTA() {
   const [visible, setVisible] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // Show on scroll past 350px
+  // Show once the user has scrolled past 60% of the page's scrollable height.
+  // Re-checked on scroll AND resize so images loading / mobile URL-bar shifts
+  // recompute the threshold naturally.
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > 350);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    const check = () => {
+      const scrollable =
+        document.documentElement.scrollHeight - window.innerHeight;
+      // Very short pages (no scroll room) — never show
+      if (scrollable < 50) {
+        setVisible(false);
+        return;
+      }
+      setVisible(window.scrollY / scrollable >= 0.6);
+    };
+    check();
+    window.addEventListener('scroll', check, { passive: true });
+    window.addEventListener('resize', check, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', check);
+      window.removeEventListener('resize', check);
+    };
   }, []);
 
   // Modal escape + body scroll lock

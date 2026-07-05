@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { WhatsAppButton } from './WhatsAppButton';
 
@@ -13,7 +13,17 @@ type NavLink = {
 
 export function Nav() {
   const t = useTranslations('nav');
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Clicking the logotype while already on the homepage should smooth-scroll
+  // to the top rather than no-op (Next.js suppresses same-URL navigations).
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === '/') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   const links: NavLink[] = [
     { href: '/properties', label: t('properties') },
@@ -47,6 +57,7 @@ export function Nav() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 h-16 flex items-center justify-between gap-3 sm:gap-6">
           <Link
             href="/"
+            onClick={handleLogoClick}
             className="font-display text-base sm:text-lg tracking-[0.05em] text-porcelain hover:text-porcelain-dim transition-colors truncate max-w-[55%] sm:max-w-none"
           >
             {agentName}

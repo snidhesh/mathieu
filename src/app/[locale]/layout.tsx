@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { StickyContactCTA } from '@/components/StickyContactCTA';
+import { Loader } from '@/components/Loader';
 import { JsonLd } from '@/components/JsonLd';
 import { rootGraph } from '@/lib/schema';
 import '../globals.css';
@@ -87,6 +88,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale}>
           {children}
           <StickyContactCTA />
+          <Loader />
           <JsonLd data={rootGraph(locale)} />
         </NextIntlClientProvider>
       </body>

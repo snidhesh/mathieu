@@ -6,10 +6,32 @@ export function About() {
   const t = useTranslations('about');
 
   return (
-    <section id="about" className="py-20 lg:py-32 px-6 lg:px-12">
-      <div className="mx-auto max-w-6xl">
+    <section
+      id="about"
+      className="relative py-20 lg:py-32 px-6 lg:px-12 overflow-hidden"
+    >
+      {/* Full-bleed background portrait — same "glued" pattern as the Hero.
+          Mobile uses vertical gradient; desktop uses horizontal gradient
+          keeping the face readable on the right, text crisp on the left. */}
+      <div className="absolute inset-0" aria-hidden="true">
+        <Image
+          src="/portraits/agent-dubai.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover object-[85%_35%] lg:object-[50%_35%] lg:translate-x-[15%] grayscale-[70%]"
+        />
+        {/* Mobile: strong vertical gradient */}
+        <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-obsidian/90 via-obsidian/65 to-obsidian/95" />
+        {/* Desktop: horizontal gradient — dark left for text, softer right for image */}
+        <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-obsidian from-30% via-obsidian/75 via-60% to-obsidian/15" />
+        {/* Universal top/bottom fade so section blends with neighbours */}
+        <div className="absolute inset-0 bg-gradient-to-b from-obsidian/50 via-transparent to-obsidian/70" />
+      </div>
+
+      <div className="mx-auto max-w-6xl relative z-10">
         <FadeIn>
-          <p className="text-[11px] tracking-[0.35em] uppercase text-champagne">
+          <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
             {t('eyebrow')}
           </p>
         </FadeIn>
@@ -22,50 +44,41 @@ export function About() {
           <div className="hairline w-40 mt-10" />
         </FadeIn>
 
-        <div className="mt-16 grid lg:grid-cols-12 gap-12 lg:gap-16">
-          <div className="lg:col-span-7 space-y-6 text-porcelain-dim leading-relaxed">
-            <FadeIn delay={0.3}>
-              <p className="text-base lg:text-lg">{t('body1')}</p>
-            </FadeIn>
-            <FadeIn delay={0.4}>
-              <p className="text-base lg:text-lg">{t('body2')}</p>
-            </FadeIn>
-            <FadeIn delay={0.5}>
-              <div className="pt-6 mt-8 border-l border-champagne-dim/40 pl-6 space-y-3">
-                {(['credential1', 'credential2', 'credential3'] as const).map(
-                  (key) => (
-                    <p
-                      key={key}
-                      className="text-[11px] tracking-[0.2em] uppercase text-porcelain"
-                    >
-                      <span className="text-champagne mr-3">—</span>
-                      {t(key)}
-                    </p>
-                  ),
-                )}
-              </div>
-            </FadeIn>
-          </div>
-
-          <FadeIn delay={0.4} className="lg:col-span-5">
-            <div className="relative aspect-square w-full overflow-hidden">
-              <Image
-                src="/portraits/agent-dubai.jpg"
-                alt="Mathieu Poissonnet in Dubai"
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover grayscale-[65%] hover:grayscale-0 transition-all duration-1000"
-              />
-              <div className="absolute inset-0 border border-champagne-dim/30" />
-              <div className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-obsidian/80 to-transparent">
-                <p className="text-[10px] tracking-[0.3em] uppercase text-champagne">
-                  Dubai · 2025
-                </p>
-              </div>
+        {/* All body copy + credentials in a single left-aligned column so it
+            never fights the portrait for space. */}
+        <div className="mt-16 max-w-2xl space-y-10">
+          <FadeIn delay={0.3}>
+            <p className="text-base lg:text-lg text-porcelain-dim leading-relaxed">
+              {t('body1')}
+            </p>
+          </FadeIn>
+          <FadeIn delay={0.4}>
+            <p className="text-base lg:text-lg text-porcelain-dim leading-relaxed">
+              {t('body2')}
+            </p>
+          </FadeIn>
+          <FadeIn delay={0.5}>
+            <div className="border-l border-porcelain-dim/40 pl-6 space-y-3">
+              {(['credential1', 'credential2', 'credential3'] as const).map(
+                (key) => (
+                  <p
+                    key={key}
+                    className="text-[11px] tracking-[0.2em] uppercase text-porcelain"
+                  >
+                    <span className="text-porcelain-dim mr-3">—</span>
+                    {t(key)}
+                  </p>
+                ),
+              )}
             </div>
           </FadeIn>
         </div>
       </div>
+
+      {/* Desktop-only Dubai caption tucked into the image's bottom-right corner */}
+      <p className="hidden lg:block absolute bottom-8 right-8 z-10 text-[10px] tracking-[0.3em] uppercase text-porcelain-dim/80">
+        Dubai · 2025
+      </p>
     </section>
   );
 }

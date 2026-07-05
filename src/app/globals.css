@@ -61,3 +61,21 @@ body {
   letter-spacing: 0.25em;
   font-size: 0.7rem;
 }
+
+/* Utility — hide native scrollbars on horizontal snap carousels */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Loader — terminal-style blinking cursor */
+@keyframes loader-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.loader-cursor {
+  animation: loader-blink 0.9s steps(2, jump-none) infinite;
+}

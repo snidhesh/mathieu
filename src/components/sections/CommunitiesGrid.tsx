@@ -28,9 +28,14 @@ export function CommunitiesGrid() {
           <div className="hairline w-40 mt-10" />
         </FadeIn>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        {/* Mobile: horizontal snap-scroll. md+: 3-column grid. */}
+        <div className="mt-16 flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-visible snap-x md:snap-none snap-mandatory -mx-6 md:mx-0 px-6 md:px-0 pb-4 md:pb-0 scrollbar-hide">
           {communities.map((community, i) => (
-            <FadeIn key={community.slug} delay={i * 0.08}>
+            <FadeIn
+              key={community.slug}
+              delay={i * 0.08}
+              className="snap-start shrink-0 w-[82%] sm:w-[65%] md:w-auto md:shrink"
+            >
               <Link
                 href={`/communities/${community.slug}`}
                 className="group block"
@@ -40,7 +45,7 @@ export function CommunitiesGrid() {
                     src={community.heroImage}
                     alt={tItems(`${community.slug}.name`)}
                     fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 82vw"
                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-obsidian/80 via-transparent to-transparent" />
@@ -57,6 +62,11 @@ export function CommunitiesGrid() {
             </FadeIn>
           ))}
         </div>
+
+        {/* Mobile-only affordance: swipe hint */}
+        <p className="md:hidden mt-4 text-[10px] tracking-[0.25em] uppercase text-porcelain-dim/70">
+          ← Swipe →
+        </p>
       </div>
     </section>
   );
