@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  /* Pure black-and-white palette — Cortazzo-inspired */
+  --color-obsidian: #000a0c;        /* page background */
+  --color-charcoal: #0a1416;        /* alt section bg */
+  --color-charcoal-2: #121c1e;
+  --color-porcelain: #ffffff;       /* primary white */
+  --color-porcelain-dim: #a5a9aa;   /* secondary gray */
+
+  /* Aliases retained for backwards compatibility, remapped to greys
+     so the site reads as fully monochrome. Visual accent now comes
+     from font weight, letter-spacing and scale — not colour. */
+  --color-champagne: #ffffff;
+  --color-champagne-dim: #3a3d3e;
+
+  /* Cortazzo font stack */
+  --font-display: var(--font-julius-sans-one); /* thin caps, wide-tracked */
+  --font-sans: var(--font-source-sans-3);       /* body — light weights */
+  --font-italic: var(--font-amiri);             /* editorial italic */
+}
+
+html,
+body {
+  background: var(--color-obsidian);
+  color: var(--color-porcelain);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 12pt;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "pnum";
+  font-variant-numeric: proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-porcelain);
+  color: var(--color-obsidian);
+}
+
+/* Hairline divider — pure grey, no warmth */
+.hairline {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--color-porcelain-dim) 20%,
+    var(--color-porcelain-dim) 80%,
+    transparent 100%
+  );
+  opacity: 0.45;
+}
+
+/* Cortazzo-style eyebrow: uppercase, wide-tracked */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.7rem;
+}

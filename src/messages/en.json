@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "title": "Mathieu Poissonnet — Off-Plan Real Estate Advisor, Dubai",
+    "description": "Off-plan investment advisory in Dubai for private investors, high-net-worth families, and developers across the UAE. Personal profile of Mathieu Poissonnet.",
+    "ogTitle": "Mathieu Poissonnet — Off-Plan Real Estate Advisor, Dubai",
+    "ogDescription": "Off-plan advisory · Developer financing · HNW investor structuring — from Emaar Beachfront to Palm Jebel Ali."
+  },
+  "nav": {
+    "about": "About",
+    "listings": "Opportunities",
+    "properties": "Properties",
+    "communities": "Communities",
+    "insights": "Insights",
+    "services": "Services",
+    "testimonials": "Reviews",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "Off-Plan Real Estate Advisor · Dubai",
+    "name": "Mathieu Poissonnet",
+    "tagline": "Off-plan investments in the UAE, done with precision.",
+    "subtagline": "Deep market research, developer relationships, and a client-centric approach — for private investors, HNW families, and developers.",
+    "cta": "Speak with Mathieu"
+  },
+  "stats": {
+    "heading": "Track record",
+    "disclaimer": "Illustrative figures — final numbers on request under NDA.",
+    "sold": "Placed with clients",
+    "deals": "Transactions structured",
+    "years": "Years in Dubai real estate",
+    "listings": "Active off-plan mandates"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "An investment advisor with a high-performance mindset.",
+    "body1": "Mathieu Poissonnet is a Dubai-based real estate advisor focused on off-plan investment opportunities across the UAE. He advises private investors, high-net-worth families, and developers — combining deep market research, direct developer access, and structured financing solutions to make each transaction seamless and each investment thesis defensible.",
+    "body2": "Before real estate, Mathieu spent seven years in elite gymnastics coaching in Wales, where results are measurable and preparation is everything. That same discipline now shapes every mandate: research first, structure second, close cleanly — no hype, no shortcuts, no wasted meetings.",
+    "credential1": "Off-plan specialist · Investor & developer advisory",
+    "credential2": "Native French · Fluent English",
+    "credential3": "Previously at Huspy, BWC Real Estate, Harvey Smith",
+    "placeholderBadge": "Illustrative figures — final numbers on request",
+    "page": {
+      "eyebrow": "About",
+      "title": "A quiet advisor for people who don't want to shop in public.",
+      "introHeading": "The short version",
+      "intro1": "Mathieu Poissonnet advises private investors, families and developers on Dubai real estate — with a focus on off-plan opportunities and structured deals that don't turn up on portal listings.",
+      "intro2": "Every mandate starts with a written brief, a research memo and a modelled exit before a single unit is discussed. No hype, no shortcuts, no fifty-slide developer decks.",
+      "philosophyHeading": "How I work",
+      "philosophyBody": "Before real estate, I spent seven years in elite gymnastics coaching in Wales. Preparation was everything; results were measurable to the tenth of a point.\n\nThat's how I approach a mandate now. Research first, structure second, close cleanly. If the numbers don't work, I say so — and then I find something that does.",
+      "experienceHeading": "Career",
+      "experience": {
+        "blackoak": {
+          "role": "Senior Property Consultant",
+          "company": "BlackOak Real Estate",
+          "period": "June 2026 — Present",
+          "location": "Dubai, UAE"
+        },
+        "bwc": {
+          "role": "Real Estate Consultant",
+          "company": "BWC Real Estate",
+          "period": "Dec 2024 — Jun 2026",
+          "location": "Dubai, UAE"
+        },
+        "huspy": {
+          "role": "Senior Sales Advisor",
+          "company": "Huspy",
+          "period": "Dec 2024 — Jun 2026",
+          "location": "Dubai, UAE"
+        },
+        "harveySmith": {
+          "role": "Consultant, Property Sales",
+          "company": "Harvey Smith Real Estate",
+          "period": "2023",
+          "location": "Dubai, UAE"
+        },
+        "gymnastics": {
+          "role": "Elite gymnastics coach & mentor",
+          "company": "Welsh Gymnastics · Cardiff Central YC · Capital Gymnastics",
+          "period": "2015 — 2022",
+          "location": "Cardiff, Wales, UK"
+        }
+      },
+      "languagesHeading": "Languages",
+      "languagesBody": "French (native) · English (fluent). Everything from first message to signing translates seamlessly across both.",
+      "stats": {
+        "heading": "Track record",
+        "subheading": "Illustrative figures for the current cycle. Full deal register on request under NDA.",
+        "items": {
+          "placed": { "value": "180M+", "label": "Placed with clients" },
+          "deals": { "value": "34", "label": "Transactions structured" },
+          "years": { "value": "3", "label": "Years in Dubai real estate" },
+          "communities": { "value": "12", "label": "Active off-plan mandates" }
+        }
+      },
+      "partners": {
+        "heading": "Developer relationships",
+        "subheading": "Priority allocations across the Dubai tier-one developers — direct access to launch inventory before it hits the market.",
+        "list": ["Emaar", "Meraas", "Nakheel", "Sobha", "DAMAC"]
+      },
+      "pathways": {
+        "heading": "Where to go from here",
+        "talk": {
+          "eyebrow": "01",
+          "heading": "Talk to me",
+          "body": "Share a brief on WhatsApp or email. I reply the same working day.",
+          "cta": "Contact"
+        },
+        "browse": {
+          "eyebrow": "02",
+          "heading": "Browse current mandates",
+          "body": "A curated shortlist across sale and off-plan — Palm, Downtown, Emirates Hills, and Emaar Beachfront.",
+          "cta": "See properties"
+        }
+      },
+      "ctaHeading": "The first conversation is on WhatsApp.",
+      "ctaBody": "Send a message with your brief — budget, horizon, and what you're trying to achieve. I'll reply the same working day."
+    }
+  },
+  "listings": {
+    "eyebrow": "Selection",
+    "title": "A shortlist worth a conversation.",
+    "subtitle": "A few of the mandates on the desk this quarter. Full portfolio — off-plan launches, resales, and off-market villas — available on request.",
+    "cta": "Enquire on WhatsApp",
+    "viewAll": "View all properties",
+    "beds": "Beds",
+    "baths": "Baths",
+    "sqft": "Sq ft",
+    "items": {
+      "palm": {
+        "name": "Palm Jumeirah — Signature Villa",
+        "location": "Frond G · Palm Jumeirah",
+        "blurb": "Six-bedroom beachfront villa with private pool, cinema and 30m of Arabian Gulf frontage. Ready secondary-market opportunity, immediate handover.",
+        "description": "This is one of a handful of villas built to the original 2007 palm-frond specification with three-storey volume — the ceilings are what everyone notices first. The layout gives you a formal entertaining floor at ground level, all bedrooms and family living on the first, and a rooftop deck on the second.\n\nThirty metres of private beach, a linear infinity pool along the beach line, and staff quarters accessed through a separate service entrance. The current owner completed a full renovation in 2023 — smart-home, all bathrooms, kitchen — and the villa comes fully furnished.\n\nRepresenting the seller directly, off-market. Financials on request under NDA.",
+        "amenities": {
+          "private-beach": "Private beach",
+          "infinity-pool": "Infinity pool",
+          "private-cinema": "Private cinema",
+          "staff-quarters": "Staff quarters",
+          "smart-home": "Smart home",
+          "gym": "Home gym"
+        }
+      },
+      "downtown": {
+        "name": "Emaar Beachfront — Off-Plan Penthouse",
+        "location": "Emaar Beachfront · Dubai Harbour",
+        "blurb": "Four-bedroom off-plan penthouse in Emaar's flagship waterfront community. Priority allocation, staged payment plan, handover Q4 2028.",
+        "description": "Emaar Beachfront is Emaar's masterplanned peninsula between JBR and the Palm — the last piece of waterfront land inside central Dubai. This penthouse sits on the top floor of a west-facing tower, with an uninterrupted Palm Jumeirah view and a wraparound terrace.\n\nOff-plan release with priority allocation for a limited handful of buyers. Payment plan is 60% during construction, 40% on handover Q4 2028 — the tightest schedule Emaar has committed to on the peninsula.\n\nUnit is unfurnished, delivered white-box with premium finishes. Ideal for buyers who want to time construction to a specific relocation window.",
+        "amenities": {
+          "burj-views": "Palm & skyline views",
+          "private-terrace": "Wraparound terrace",
+          "concierge": "24-hour concierge",
+          "infinity-pool": "Infinity pool",
+          "valet-parking": "Valet parking",
+          "private-lift": "Private lift access"
+        }
+      },
+      "hills": {
+        "name": "Emirates Hills — Custom Mansion",
+        "location": "Sector W · Emirates Hills",
+        "blurb": "Seven-bedroom custom-built mansion on the 9th fairway, staff wing, indoor pool and full smart-home. Ready keys, off-market.",
+        "description": "Custom-built mansion on one of the last available plots in Sector W of Emirates Hills — the golf-facing sector considered the community's most prestigious address. Seven bedrooms across the main house, plus a separate staff wing with three additional rooms.\n\nDirect frontage onto the 9th fairway of the Montgomerie. Indoor pool, private cinema, wine cellar for 900 bottles, and a fully-integrated smart-home spec that manages climate, security, and lighting from a single interface.\n\nRepresenting the owner in a discreet off-market process. Introductions to qualified buyers only.",
+        "amenities": {
+          "golf-frontage": "Golf-course frontage",
+          "indoor-pool": "Indoor pool",
+          "staff-wing": "Separate staff wing",
+          "private-cinema": "Private cinema",
+          "wine-cellar": "Wine cellar (900 btls)",
+          "smart-home": "Full smart-home"
+        }
+      }
+    }
+  },
+  "properties": {
+    "index": {
+      "eyebrow": "Properties",
+      "title": "Current selection.",
+      "subtitle": "Live mandates across sale and off-plan. Full portfolio available on request."
+    },
+    "detail": {
+      "backTo": "All properties",
+      "referenceLabel": "Ref.",
+      "priceLabel": "Guide price",
+      "offering": {
+        "sale": "For sale",
+        "off-plan": "Off-plan"
+      },
+      "facts": {
+        "beds": "Beds",
+        "baths": "Baths",
+        "sqft": "Sq ft",
+        "parking": "Parking",
+        "type": "Type",
+        "furnishing": "Furnishing",
+        "handover": "Handover"
+      },
+      "aboutHeading": "About this property",
+      "amenitiesHeading": "Amenities",
+      "galleryHeading": "Gallery",
+      "communityHeading": "About the community",
+      "communityCta": "Explore",
+      "inquireCta": "Enquire",
+      "whatsappCta": "WhatsApp",
+      "askAbout": "I'd like to know more about"
+    }
+  },
+  "communities": {
+    "index": {
+      "eyebrow": "Communities",
+      "title": "Where I work.",
+      "subtitle": "Short guides to the Dubai neighbourhoods I know inside out — the market fundamentals, the lifestyle, and what's actually worth buying."
+    },
+    "detail": {
+      "backTo": "All communities",
+      "attractionsHeading": "Landmarks & lifestyle",
+      "highlightsHeading": "Why investors buy here",
+      "propertiesHeading": "Selected properties",
+      "inquireCta": "Enquire about this community"
+    },
+    "items": {
+      "palm-jumeirah": {
+        "name": "Palm Jumeirah",
+        "summary": "Dubai's iconic seven-mile palm-shaped island. Family villas on the fronds, apartments and hotels along the trunk.",
+        "lifestyle": "Palm Jumeirah is where Dubai's oceanfront villa market begins. Owners tend to be end-users or long-term holders — the frond villas are the most protected asset in the city thanks to permanent supply constraints.\n\nExpect quiet family streets on the fronds, a bustling trunk with retail and F&B, and a growing luxury hotel presence at the crescent tip. Access is via the Palm Monorail, the trunk road, or private boat.",
+        "attractions": {
+          "nakheel-mall": {
+            "name": "Nakheel Mall",
+            "description": "The Palm's central mall with a top-floor viewing deck across the entire crescent."
+          },
+          "atlantis": {
+            "name": "Atlantis The Palm & The Royal",
+            "description": "Twin luxury resort anchors at the crescent tip — Nobu, Ossiano, Aquaventure."
+          },
+          "private-beaches": {
+            "name": "Private beaches",
+            "description": "Every frond villa has its own private beach frontage on the Arabian Gulf."
+          },
+          "the-view": {
+            "name": "The View at The Palm",
+            "description": "240-metre observation deck at the top of the Palm Tower with 360° views of the island."
+          }
+        },
+        "highlights": {
+          "supply": {
+            "title": "Fixed supply",
+            "description": "No new frond villa land will be created — supply is fixed at the original 2007 masterplan."
+          },
+          "yield": {
+            "title": "Yield & capital growth",
+            "description": "Prime frond villas have compounded at 12–18% per annum over the last five years with rental yields around 4–5%."
+          }
+        }
+      },
+      "downtown-dubai": {
+        "name": "Downtown Dubai",
+        "summary": "Home of the Burj Khalifa and Dubai Fountain — the city's most recognisable skyline and its most walkable luxury district.",
+        "lifestyle": "Downtown is where central Dubai happens. Boulevard-facing towers by Emaar are the reference product — Armani, Address, Burj Vista, Il Primo — and the entire district was designed as a walkable retail-hotel-residential grid.\n\nBest suited to investors and end-users who want restaurants, art, and business districts all inside a fifteen-minute walk. Off-plan supply from Emaar continues to lead pricing.",
+        "attractions": {
+          "burj-khalifa": {
+            "name": "Burj Khalifa",
+            "description": "The world's tallest building anchors the district — visible from every north-facing residence."
+          },
+          "dubai-mall": {
+            "name": "The Dubai Mall",
+            "description": "The world's largest mall with a direct residents' walkway from most Downtown towers."
+          },
+          "fountain": {
+            "name": "Dubai Fountain",
+            "description": "The 275-metre choreographed fountain — nightly shows draw crowds to the boulevard."
+          },
+          "opera": {
+            "name": "Dubai Opera",
+            "description": "The 2,000-seat multi-format concert and opera venue on the boulevard."
+          }
+        },
+        "highlights": {
+          "walkability": {
+            "title": "Rare Dubai walkability",
+            "description": "One of only two Dubai districts where daily life works entirely on foot — Downtown and DIFC."
+          },
+          "brand": {
+            "title": "Brand asset",
+            "description": "Address, Armani and Il Primo units carry a permanent brand premium that resists softening cycles."
+          }
+        }
+      },
+      "emirates-hills": {
+        "name": "Emirates Hills",
+        "summary": "Dubai's answer to Beverly Hills — a fully gated community of custom mansions built around the Montgomerie golf course.",
+        "lifestyle": "Emirates Hills is the top of Dubai's villa market. Everything is custom-built on plots between 12,000 and 40,000 sq ft, gated at three checkpoints, with a private international school and country club inside the perimeter.\n\nOwnership skews toward end-users with generational holding horizons. Deals are almost entirely off-market — the Sector W plots on the 9th fairway are among the most tightly-held addresses in the UAE.",
+        "attractions": {
+          "montgomerie-golf": {
+            "name": "The Montgomerie Golf Club",
+            "description": "18-hole Colin Montgomerie–designed championship course wrapping the community."
+          },
+          "lake-views": {
+            "name": "Central lake",
+            "description": "The community-wide lake system with prime W-Sector plots facing directly onto it."
+          },
+          "gated-community": {
+            "name": "Three-gate security",
+            "description": "Three separate manned checkpoints with 24/7 patrols — one of Dubai's most secure addresses."
+          },
+          "international-schools": {
+            "name": "Dubai International Academy",
+            "description": "IB-curriculum school directly inside the Emirates Hills perimeter."
+          }
+        },
+        "highlights": {
+          "supply": {
+            "title": "Ultra-limited supply",
+            "description": "Only 620 plots exist inside the perimeter — most trade off-market and rarely."
+          },
+          "prestige": {
+            "title": "Prestige premium",
+            "description": "The Sector W address commands a 30–50% premium over comparable custom villa communities."
+          }
+        }
+      }
+    }
+  },
+  "insights": {
+    "index": {
+      "eyebrow": "Real Estate Insights",
+      "title": "Market notes.",
+      "subtitle": "Long-form thinking on Dubai off-plan launches, community fundamentals, and investment structuring — written between mandates, not before them."
+    },
+    "detail": {
+      "backTo": "All insights",
+      "readTime": "min read",
+      "by": "By Mathieu Poissonnet",
+      "relatedHeading": "Read next",
+      "shareHeading": "Share",
+      "shareWa": "WhatsApp",
+      "shareEmail": "Email",
+      "ctaHeading": "Have a specific case in mind?",
+      "ctaBody": "Send a short brief and I'll come back with a modelled shortlist.",
+      "ctaButton": "Talk to me"
+    },
+    "categories": {
+      "off-plan": "Off-plan",
+      "market": "Market",
+      "investment": "Investment",
+      "guide": "Guide"
+    },
+    "items": {
+      "palm-jebel-ali": {
+        "title": "Why Palm Jebel Ali is the most watched off-plan launch of 2026",
+        "excerpt": "Nakheel's revived mega-project is priced to move. What the payment plan actually says about who they want as buyers.",
+        "lead": "Palm Jebel Ali was mothballed in 2008, revived in 2023, and Nakheel started launching villa plots in 2025. 2026 is the year the retail launches hit at scale.",
+        "body": "The first thing to know is that Palm Jebel Ali isn't Palm Jumeirah 2.0. The fronds are wider, the plots average 12,000 sq ft compared to Palm Jumeirah's 6,500, and the masterplan leans residential rather than hospitality-first. That changes who this island is for and how it will trade.\n\nThe pricing signal is the easy headline: launch prices are roughly 30% below current Palm Jumeirah frond averages. But the payment plan tells you more than the sticker. Nakheel structured a 50/50 plan with 40% of that during construction — a heavy front-load that filters out anyone hoping to flip pre-handover. This is deliberate.\n\nWhen a developer front-loads the schedule, they're signalling two things. First, they want committed buyers who won't need liquidity for four years. Second, they want to fund construction from the sales, which reduces their reliance on debt and improves their ability to hold pricing on later phases.\n\nIf the historical comparison plays out, this is interesting. Palm Jumeirah frond villas launched at roughly 2,500 AED/sq ft in 2006, dipped below 1,800 in 2010, and now trade between 5,500 and 7,000. Palm Jebel Ali is opening at around 1,800. A 5–7× compound over 15 years is the thesis. It's not guaranteed — nothing about property is — but the setup is comparable to Palm Jumeirah's early cycle.\n\nThe risk is completion. Palm Jebel Ali's original 2008 delivery was cancelled and buyers were refunded years later. Nakheel's track record since 2010 on Palm Jumeirah is strong, but the first three years of Palm Jebel Ali will be the market's test of whether the second attempt is different.\n\nMy view: this isn't a first UAE investment. It's a portfolio position for someone who already owns a ready asset and wants long-duration exposure. 15–20% of a real-estate allocation is a reasonable size. If you're buying your first Dubai property, buy something ready first, live in the market for two cycles, then look at Palm Jebel Ali."
+      },
+      "emaar-beachfront-payment": {
+        "title": "Emaar Beachfront — reading the payment plan behind the launch prices",
+        "excerpt": "Every developer's payment plan tells you who they want in the building. Here's what Emaar Beachfront's says in 2026.",
+        "lead": "Emaar Beachfront launched in 2019 at roughly 1,800 AED/sq ft. The first towers handed over in 2022 at 2,400. The 2026 launches are pricing at 2,600–2,800. But the payment plan has moved further than the price.",
+        "body": "Every launch has a payment plan and every payment plan is a filter. Emaar's early Beachfront releases were 40/60 — 40% during construction, 60% at handover. Retail-friendly. It signalled they wanted volume and didn't yet know how quickly the location would appreciate.\n\nBy 2022 that had shifted to 50/50. Same rough structure, but more front-loaded. By 2024, most premium buildings were on 60/40. And the newest premium releases in 2026 are 70/30 — the buyer funds nearly the entire construction before receiving keys.\n\nRead against the market, this is confidence. Emaar has decided they don't need retail-friendly plans to sell. They can filter for capital-rich buyers who don't need financing leverage to complete. Those buyers hold longer, don't panic on cycle dips, and don't dump onto the resale market at handover.\n\nWhat does this mean if you're buying today? The 2028-handover premium units are the tightest inventory in the peninsula. Priority allocation only, and the payment plan effectively demands a cash buyer. If you can meet the plan, the entry point is genuinely better than the resale market — even after two years of appreciation.\n\nWhat it means if you're waiting to see: don't. The launch discount has compressed to under 10% versus comparable ready units. Emaar Beachfront now trades as a mature product. Buy for lifestyle or capital preservation, not opportunistic yield.\n\nThe short version — Emaar Beachfront is done being a growth story. It's now a defensive holding in the Dubai luxury market. That's not a criticism. Defensive positions have their place."
+      },
+      "golden-visa-property": {
+        "title": "Dubai golden visa via property — what actually qualifies",
+        "excerpt": "The AED 2M threshold is well-known. What most articles skip is what counts as \"property\" and how the visa timeline actually works.",
+        "lead": "The AED 2M investment-based golden visa is the most common route for property buyers. Most first-time buyers understand the threshold. Fewer understand the qualifying details — and those details are where deals fall over.",
+        "body": "The rule as advertised: buy property worth AED 2M or more, get a 10-year residence visa. Spouse and children included. Renewable indefinitely as long as ownership is maintained.\n\nThe first nuance is location. Only freehold-zone properties qualify. Leasehold in older districts does not. If you're buying resale in a non-freehold community, the visa doesn't unlock — regardless of the purchase price.\n\nThe second nuance is the mortgage rule. You can buy a mortgaged property and still qualify, but your down-payment (equity in the deal) must be at least AED 2M. On a 10M purchase, a 20% down-payment is 2M — that works. On a 4M purchase, a 20% down-payment is 800K — that doesn't. You either pay more down or you need a larger property.\n\nThe third nuance is aggregation. You can combine two or more freehold properties to hit 2M in equity. This matters for buyers who want to spread across communities rather than concentrate.\n\nThe fourth is off-plan. Under-construction properties count, but only once you've paid at least 40% of the total purchase price. This is DLD's rule, and it's non-negotiable. A 60/40 payment plan won't qualify you until you're at handover.\n\nThe fifth is timeline. From completed purchase to visa issuance is typically 30–45 days. Family visas are processed alongside. Renewal every 10 years is administrative, not requalifying — as long as you still own qualifying property.\n\nCommon pitfalls I see: leasehold properties assumed to qualify (they don't), off-plan units expected to trigger the visa immediately (they won't until the 40% threshold is met), and buyers who split 2M across a freehold and a leasehold unit (only the freehold portion counts). Always confirm freehold status with the Dubai Land Department before signing an MoU."
+      },
+      "off-plan-3-metrics": {
+        "title": "The three metrics I check before recommending an off-plan unit",
+        "excerpt": "Before I say yes to a client on any off-plan unit, three numbers have to check out. Payment plan, floor-plan efficiency, resale liquidity.",
+        "lead": "Every off-plan pitch comes with beautiful renders and a compelling story. Behind the marketing, three numbers tell you whether the unit will actually work as an investment. I don't recommend anything without them.",
+        "body": "The first metric is payment-plan front-loading. If you're paying more than 60% before handover, you're funding the developer's construction against their timeline. That's fine if the developer has a track record of hitting delivery dates. Ask for their last five projects and check the actual handover dates against the original announced ones. A one-year slip is normal. Two years is a warning. Three years is a stop.\n\nThe second metric is floor-plan efficiency — the ratio of usable interior area to total sold area. In prime Dubai stock, 85% or higher is excellent. 75–85% is average. Below 75% is a red flag. Corner units and top-floor units tend to have worse ratios because of setback rules and mechanical spaces. Ask for the floor plan with both the total and usable areas marked. Reputable developers provide this; the ones who don't are the ones you should walk from.\n\nThe third metric is resale liquidity in the community. Look at the historic turnover in comparable units — same community, similar bed count, similar size. If there are 200 units in the tower and only 4 have traded in the last 12 months, plan for a longer exit. That's not necessarily a bad investment, but you need to buy at a price that accounts for illiquidity.\n\nWhen these three align — priority allocation with a reasonable payment plan, 85%+ efficiency, and a proven resale market — I recommend without hesitation. That's the profile of the units I place with clients.\n\nWhen they don't align — front-loaded payment on a first-time developer with tight floor plans in an untested community — that's a hard no. It doesn't matter how good the renders are.\n\nThe most common mistake I see buyers make is falling in love with the marketing. Every launch produces gorgeous imagery. Every developer's brochure claims record demand. The three metrics tell you what will actually happen five years from now — and five years is what matters."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Advisory, not brokerage-as-usual.",
+    "items": {
+      "offplan": {
+        "title": "Off-plan advisory",
+        "body": "Priority allocations with tier-one developers — Emaar, Meraas, Nakheel, Sobha, DAMAC — including early-access floor plans, launch pricing and staged payment plans."
+      },
+      "resale": {
+        "title": "Resale & off-market",
+        "body": "Ready secondary-market and off-market villa / penthouse representation. Discreet introductions for buyers who prefer not to shop in public."
+      },
+      "investment": {
+        "title": "Investor structuring",
+        "body": "Yield modelling, area selection, and exit-strategy planning for HNW investors building UAE portfolios — from single-asset to multi-tower."
+      },
+      "management": {
+        "title": "Developer financing",
+        "body": "Financial arrangements and capital introductions for developers — bridging, mezzanine, and equity partners for launches and mid-project needs."
+      }
+    },
+    "page": {
+      "eyebrow": "Services",
+      "title": "Four services, delivered personally.",
+      "intro": "Each mandate starts with a written brief and a modelled thesis before anything is shown or signed. No commission-driven shortlists, no volume-play referrals.",
+      "forHeading": "For",
+      "includedHeading": "Included",
+      "processHeading": "How it works",
+      "items": {
+        "offplan": {
+          "intro": "Priority allocations across the tier-one Dubai developers. Early access to unit inventories and launch pricing, structured against a modelled hold horizon.",
+          "forWho": "First-time UAE investors, HNW families adding UAE exposure, and funds looking to structure pipeline access across launches.",
+          "included": [
+            "Direct developer allocations at launch prices",
+            "Modelled yield & exit for each unit shortlisted",
+            "Payment plan review — 60/40, 40/60, post-handover",
+            "Handover coordination and snagging"
+          ],
+          "process": [
+            "Written brief — budget, horizon, exit criteria",
+            "Modelled shortlist — 3 to 5 units with numbers",
+            "Reservations at launch pricing",
+            "Payment-plan management to handover"
+          ]
+        },
+        "resale": {
+          "intro": "Ready secondary-market and off-market representation for villas and penthouses. Discreet introductions where public search would be inappropriate.",
+          "forWho": "Buyers who want ready keys, sellers who need a discreet exit, and families relocating on a fixed handover window.",
+          "included": [
+            "Off-market inventory access",
+            "Comparable analysis before offer",
+            "Negotiation and MoU drafting",
+            "Transfer, DEWA and Ejari coordination"
+          ],
+          "process": [
+            "Requirement brief and viewing schedule",
+            "Comparable analysis on each unit shown",
+            "Offer, negotiation, MoU signing",
+            "Transfer and handover"
+          ]
+        },
+        "investment": {
+          "intro": "Portfolio-level structuring for HNW investors building UAE exposure — from single-asset first-time buys to multi-tower off-plan pipelines.",
+          "forWho": "Family offices, HNW individuals, and funds targeting a UAE allocation with defined yield and exit criteria.",
+          "included": [
+            "Yield modelling per asset",
+            "Area and product mix selection",
+            "Exit strategy per horizon (5, 7, 10 years)",
+            "Ongoing portfolio review"
+          ],
+          "process": [
+            "Investment thesis — target return, horizon, risk",
+            "Portfolio construction — per-asset modelling",
+            "Phased acquisition schedule",
+            "Quarterly portfolio review"
+          ]
+        },
+        "management": {
+          "intro": "Financial arrangements and capital introductions for developers — from bridge financing on mid-project shortfalls to equity partners for new launches.",
+          "forWho": "Developers, project sponsors, and land-holders with a capital gap between construction and delivery.",
+          "included": [
+            "Capital structure review",
+            "Bridge, mezzanine, and equity introductions",
+            "Term sheet review",
+            "Post-close reporting to LPs"
+          ],
+          "process": [
+            "Deal memo review",
+            "Investor shortlist introductions",
+            "Term-sheet negotiation support",
+            "Close, reporting, and follow-on planning"
+          ]
+        }
+      },
+      "ctaHeading": "Which one fits?",
+      "ctaBody": "Send a short brief and I'll tell you if I can help — and be honest if I can't."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Clients",
+    "title": "What clients say.",
+    "items": {
+      "1": {
+        "quote": "Mathieu ran the numbers three different ways before recommending a single unit. He was the only advisor who told me the yield model didn't work — and then found one that did.",
+        "author": "Private investor",
+        "context": "Off-plan buyer, Dubai Harbour"
+      },
+      "2": {
+        "quote": "Straight-talking, French-fluent, and knows every off-plan launch coming out of Emaar before it hits the market. Refreshing after two years of noise.",
+        "author": "HNW family office",
+        "context": "Multi-asset UAE portfolio"
+      },
+      "3": {
+        "quote": "We needed bridge financing for a mid-project shortfall. Mathieu introduced us to three viable capital partners inside a week. Closed with the second one.",
+        "author": "UAE developer",
+        "context": "Waterfront residential launch"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about Dubai.",
+    "subtitle": "A short WhatsApp is usually the fastest way to reach me. Emails are answered within the working day.",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "message": "How can I help?",
+      "messagePlaceholder": "e.g. Looking to place 20M in off-plan across Dubai Harbour and Palm Jebel Ali over the next 12 months — need a shortlist and a payment-plan comparison.",
+      "whatsappCta": "Send via WhatsApp",
+      "emailCta": "Send via email",
+      "interest": "I'm interested in",
+      "interestPlaceholder": "Select…",
+      "interestOptions": {
+        "offplan": "Off-plan opportunities",
+        "ready": "Ready / resale properties",
+        "investment": "Investment structuring",
+        "other": "Something else"
+      },
+      "submit": "Send Message",
+      "submitting": "Sending…",
+      "errors": {
+        "name": "Please tell me your name.",
+        "email": "Please add an email so I can reply.",
+        "emailInvalid": "That email doesn't look right.",
+        "message": "Tell me a bit about what you're looking for.",
+        "messageShort": "A few more words please — 20 characters minimum."
+      },
+      "success": {
+        "title": "Thank you.",
+        "body": "Your message is on its way. I read every enquiry personally and reply within one working day — usually much sooner.",
+        "wa": "Message on WhatsApp",
+        "reset": "Send another"
+      },
+      "error": {
+        "title": "Something went wrong.",
+        "body": "The message couldn't be delivered. Please try again in a moment, or reach me on WhatsApp — that's the fastest path.",
+        "wa": "Message on WhatsApp",
+        "retry": "Try again"
+      }
+    },
+    "modal": {
+      "trigger": "Let's Connect",
+      "triggerTag": "Have a question? Let's talk.",
+      "title": "Let's talk about Dubai.",
+      "subtitle": "A short brief is all I need to reply with something useful.",
+      "close": "Close"
+    },
+    "page": {
+      "eyebrow": "Contact",
+      "title": "Send a brief, get a considered answer.",
+      "intro": "WhatsApp is the fastest way to reach me. Emails are answered within the working day. First meetings are on video call, or in person in Dubai by appointment.",
+      "methodsHeading": "How to reach me",
+      "methods": {
+        "whatsapp": {
+          "label": "WhatsApp",
+          "detail": "Fastest response — usually within two hours during UAE working hours."
+        },
+        "email": {
+          "label": "Email",
+          "detail": "Best for a detailed brief with attachments. Modelled shortlists come back as PDFs."
+        },
+        "call": {
+          "label": "Voice call",
+          "detail": "After a few messages — 30 minutes on Zoom, Google Meet or WhatsApp."
+        },
+        "meet": {
+          "label": "In person",
+          "detail": "Dubai, by appointment. Property viewings arranged directly with owners."
+        }
+      },
+      "briefEyebrow": "Guide",
+      "briefHeading": "What to include in your first message.",
+      "briefIntro": "The more of this you can share up front, the faster I can reply with something useful. Approximate is fine — precision beats vagueness, but rough beats nothing.",
+      "briefItems": {
+        "budget": {
+          "label": "Budget",
+          "detail": "Approximate is fine. A range beats a single number."
+        },
+        "horizon": {
+          "label": "Horizon",
+          "detail": "Hold period, exit trigger, cash-flow needs."
+        },
+        "locations": {
+          "label": "Locations",
+          "detail": "Communities you know, ones you'd like me to shortlist."
+        },
+        "constraints": {
+          "label": "Constraints",
+          "detail": "Visa timing, school year, business setup, family logistics."
+        }
+      },
+      "formHeading": "Or send a message here",
+      "formSubtitle": "Same fields as WhatsApp. Choose whichever channel you prefer once you're done.",
+      "responseHeading": "Response times",
+      "responseBody": "WhatsApp: usually within two hours during UAE working hours (Sun–Thu, 09:00–19:00 GST). Email: same working day. Weekends and public holidays: reply Sunday morning."
+    }
+  },
+  "footer": {
+    "brokerage": "Off-Plan Real Estate Advisor · Dubai",
+    "rera": "Currently at",
+    "reraNumber": "BlackOak Real Estate",
+    "rights": "All rights reserved.",
+    "placeholderNote": "Personal profile of Mathieu Poissonnet. Stat figures on this page are illustrative pending final review. Bio and contact information sourced from a public LinkedIn profile."
+  }
+}
