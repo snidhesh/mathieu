@@ -53,18 +53,35 @@ export default async function ContactPage({
   return (
     <>
       <Nav />
-      <main className="flex-1 pt-24 pb-16 lg:pt-32 lg:pb-24 px-6 lg:px-12">
-        <div className="mx-auto max-w-6xl">
-          {/* HERO — two-column with portrait */}
-          <div className="grid gap-12 lg:grid-cols-12 lg:gap-16 items-start">
-            <div className="lg:col-span-7">
+      <main className="flex-1">
+        {/* HERO — glued portrait */}
+        <section className="relative min-h-[70vh] lg:min-h-[80vh] pt-24 lg:pt-32 pb-16 lg:pb-24 px-6 lg:px-12 overflow-hidden">
+          <div className="absolute inset-0 bg-obsidian" aria-hidden="true">
+            <Image
+              src="/portraits/hero_image_1.png"
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-[35%_10%] lg:object-[70%_5%] lg:scale-[0.8] lg:translate-x-[15%]"
+            />
+            {/* Mobile gradient — vertical */}
+            <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/55 to-obsidian" />
+            {/* Desktop gradient — horizontal, keeps face visible right */}
+            <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-obsidian from-25% via-obsidian/70 via-55% to-obsidian/10" />
+            {/* Subtle universal vignette top+bottom for legibility */}
+            <div className="hidden lg:block absolute inset-0 bg-gradient-to-b from-obsidian/60 via-transparent to-obsidian/70" />
+          </div>
+
+          <div className="mx-auto max-w-6xl relative z-10 min-h-[calc(70vh-10rem)] lg:min-h-[calc(80vh-14rem)] flex items-center">
+            <div className="lg:max-w-2xl">
               <FadeIn>
                 <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
                   {t('eyebrow')}
                 </p>
               </FadeIn>
               <FadeIn delay={0.1}>
-                <h1 className="mt-6 font-sans font-light text-3xl lg:text-6xl leading-[1.05] text-porcelain tracking-tight max-w-3xl">
+                <h1 className="mt-6 font-sans font-light text-3xl lg:text-6xl leading-[1.05] text-porcelain tracking-tight">
                   {t('title')}
                 </h1>
               </FadeIn>
@@ -77,28 +94,14 @@ export default async function ContactPage({
                 <div className="hairline w-40 mt-10" />
               </FadeIn>
             </div>
-
-            <FadeIn delay={0.15} className="lg:col-span-5">
-              <div className="relative aspect-[3/4] w-full overflow-hidden">
-                <Image
-                  src="/portraits/agent-dubai.jpg"
-                  alt="Mathieu Poissonnet — Dubai"
-                  fill
-                  priority
-                  sizes="(min-width: 1024px) 40vw, 100vw"
-                  className="object-cover grayscale-[65%]"
-                />
-                <div className="absolute inset-0 border border-porcelain-dim/25" />
-                <div className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-obsidian/80 to-transparent">
-                  <p className="text-[10px] tracking-[0.3em] uppercase text-porcelain">
-                    Dubai · Available now
-                  </p>
-                </div>
-              </div>
-            </FadeIn>
           </div>
 
-          {/* METHODS GRID */}
+          <span className="sr-only">Portrait of Mathieu Poissonnet</span>
+        </section>
+
+        <div className="pb-16 lg:pb-24 px-6 lg:px-12">
+          <div className="mx-auto max-w-6xl">
+            {/* METHODS GRID */}
           <div className="mt-20 lg:mt-32">
             <FadeIn>
               <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
@@ -210,6 +213,7 @@ export default async function ContactPage({
                 {t('responseBody')}
               </p>
             </FadeIn>
+          </div>
           </div>
         </div>
       </main>

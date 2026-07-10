@@ -14,14 +14,14 @@ export function Hero() {
           Mobile uses a top-to-bottom gradient; desktop uses a left-to-right
           gradient so the face reads on the right while the text stays crisp
           on the darkened left. */}
-      <div className="absolute inset-0" aria-hidden="true">
+      <div className="absolute inset-0 bg-obsidian" aria-hidden="true">
         <Image
           src="/portraits/hero_image_1.png"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[35%_25%] lg:object-[70%_30%]"
+          className="object-cover object-[35%_10%] lg:object-[70%_5%] lg:scale-[0.8] lg:translate-x-[15%]"
         />
         {/* Mobile gradient — vertical */}
         <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/55 to-obsidian" />
