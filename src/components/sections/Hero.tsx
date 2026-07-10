@@ -16,12 +16,12 @@ export function Hero() {
           on the darkened left. */}
       <div className="absolute inset-0" aria-hidden="true">
         <Image
-          src="/portraits/agent.jpg"
+          src="/portraits/hero_image_1.png"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[85%_20%] lg:object-[50%_20%] lg:translate-x-[15%]"
+          className="object-cover object-[35%_25%] lg:object-[70%_30%]"
         />
         {/* Mobile gradient — vertical */}
         <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/55 to-obsidian" />
