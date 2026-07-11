@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
       { pathname: '/listings/**', search: '?v2' },
       { pathname: '/communities/**', search: '' },
       { pathname: '/communities/**', search: '?v2' },
+      { pathname: '/projects/**', search: '' },
+      { pathname: '/projects/**', search: '?v1' },
       { pathname: '/portraits/**', search: '' },
     ],
   },

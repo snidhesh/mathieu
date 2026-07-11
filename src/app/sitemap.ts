@@ -4,12 +4,14 @@ import { absoluteUrl } from '@/lib/site';
 import { properties } from '@/lib/listings';
 import { communities } from '@/lib/communities';
 import { insights } from '@/lib/insights';
+import { projects } from '@/lib/projects';
 
 // Static top-level routes under [locale]. Order matters for hierarchy in
 // some crawlers.
 const STATIC_ROUTES = [
   '',
   '/properties',
+  '/projects',
   '/communities',
   '/insights',
   '/about',
@@ -80,6 +82,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
             routing.locales.map((l) => [
               l,
               absoluteUrl(`/${l}/communities/${c.slug}`),
+            ]),
+          ),
+        },
+      });
+    }
+  }
+
+  // Project details × locales
+  for (const p of projects) {
+    for (const locale of routing.locales) {
+      entries.push({
+        url: absoluteUrl(`/${locale}/projects/${p.slug}`),
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+        alternates: {
+          languages: Object.fromEntries(
+            routing.locales.map((l) => [
+              l,
+              absoluteUrl(`/${l}/projects/${p.slug}`),
             ]),
           ),
         },

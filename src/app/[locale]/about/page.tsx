@@ -106,85 +106,85 @@ export default async function AboutPage({
             </div>
           </div>
 
-          {/* PORTRAIT + PHILOSOPHY */}
-          <div className="mt-20 lg:mt-32 grid gap-12 lg:grid-cols-12 lg:gap-16">
-            <FadeIn className="lg:col-span-5">
-              <div className="relative aspect-[3/4] w-full overflow-hidden">
+          {/* PHILOSOPHY */}
+          <div className="mt-20 lg:mt-32 max-w-4xl space-y-10">
+            <FadeIn delay={0.05}>
+              <div>
+                <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
+                  {t('introHeading')}
+                </p>
+                <p className="mt-6 text-base lg:text-lg text-porcelain-dim leading-relaxed">
+                  {t('intro2')}
+                </p>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.1}>
+              <div>
+                <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
+                  {t('philosophyHeading')}
+                </p>
+                <div className="mt-6 space-y-6">
+                  {philosophyParas.map((p, i) => (
+                    <p
+                      key={i}
+                      className="text-base lg:text-lg text-porcelain-dim leading-relaxed"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </FadeIn>
+          </div>
+
+          {/* CAREER TIMELINE + PORTRAIT */}
+          <div className="mt-20 lg:mt-32 grid gap-12 lg:grid-cols-12 lg:gap-16 items-stretch">
+            <div className="lg:col-span-7">
+              <FadeIn>
+                <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
+                  {t('experienceHeading')}
+                </p>
+                <div className="hairline w-40 mt-6" />
+              </FadeIn>
+
+              <ol className="mt-12 space-y-10">
+                {experienceKeys.map((key, i) => (
+                  <FadeIn key={key} delay={i * 0.05}>
+                    <li className="grid gap-4 md:grid-cols-12 border-l border-porcelain-dim/40 pl-6">
+                      <div className="md:col-span-3">
+                        <p className="text-[10px] tracking-[0.25em] uppercase text-porcelain-dim">
+                          {t(`experience.${key}.period`)}
+                        </p>
+                      </div>
+                      <div className="md:col-span-9">
+                        <p className="font-display text-xl text-porcelain tracking-[0.03em]">
+                          {t(`experience.${key}.role`)}
+                        </p>
+                        <p className="mt-1 text-sm text-porcelain">
+                          {t(`experience.${key}.company`)}
+                        </p>
+                        <p className="mt-1 text-[11px] tracking-[0.2em] uppercase text-porcelain-dim">
+                          {t(`experience.${key}.location`)}
+                        </p>
+                      </div>
+                    </li>
+                  </FadeIn>
+                ))}
+              </ol>
+            </div>
+
+            <FadeIn className="lg:col-span-5 lg:h-full">
+              <div className="relative aspect-[3/4] lg:aspect-auto lg:h-full w-full overflow-hidden">
                 <Image
-                  src="/portraits/agent-dubai.jpg"
-                  alt="Mathieu Poissonnet in Dubai"
+                  src="/portraits/mathieu.png"
+                  alt="Mathieu Poissonnet"
                   fill
                   sizes="(min-width: 1024px) 40vw, 100vw"
                   className="object-cover grayscale-[70%]"
                 />
               </div>
             </FadeIn>
-
-            <div className="lg:col-span-7 space-y-10">
-              <FadeIn delay={0.05}>
-                <div>
-                  <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
-                    {t('introHeading')}
-                  </p>
-                  <p className="mt-6 text-base lg:text-lg text-porcelain-dim leading-relaxed">
-                    {t('intro2')}
-                  </p>
-                </div>
-              </FadeIn>
-
-              <FadeIn delay={0.1}>
-                <div>
-                  <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
-                    {t('philosophyHeading')}
-                  </p>
-                  <div className="mt-6 space-y-6">
-                    {philosophyParas.map((p, i) => (
-                      <p
-                        key={i}
-                        className="text-base lg:text-lg text-porcelain-dim leading-relaxed"
-                      >
-                        {p}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-              </FadeIn>
-            </div>
-          </div>
-
-          {/* CAREER TIMELINE */}
-          <div className="mt-20 lg:mt-32">
-            <FadeIn>
-              <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
-                {t('experienceHeading')}
-              </p>
-              <div className="hairline w-40 mt-6" />
-            </FadeIn>
-
-            <ol className="mt-12 space-y-10 max-w-4xl">
-              {experienceKeys.map((key, i) => (
-                <FadeIn key={key} delay={i * 0.05}>
-                  <li className="grid gap-4 md:grid-cols-12 border-l border-porcelain-dim/40 pl-6">
-                    <div className="md:col-span-3">
-                      <p className="text-[10px] tracking-[0.25em] uppercase text-porcelain-dim">
-                        {t(`experience.${key}.period`)}
-                      </p>
-                    </div>
-                    <div className="md:col-span-9">
-                      <p className="font-display text-xl text-porcelain tracking-[0.03em]">
-                        {t(`experience.${key}.role`)}
-                      </p>
-                      <p className="mt-1 text-sm text-porcelain">
-                        {t(`experience.${key}.company`)}
-                      </p>
-                      <p className="mt-1 text-[11px] tracking-[0.2em] uppercase text-porcelain-dim">
-                        {t(`experience.${key}.location`)}
-                      </p>
-                    </div>
-                  </li>
-                </FadeIn>
-              ))}
-            </ol>
           </div>
 
           {/* DEVELOPER RELATIONSHIPS — Kirman-style credibility strip */}

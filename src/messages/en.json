@@ -9,6 +9,7 @@
     "about": "About",
     "listings": "Opportunities",
     "properties": "Properties",
+    "projects": "Projects",
     "communities": "Communities",
     "insights": "Insights",
     "services": "Services",
@@ -314,6 +315,120 @@
           "prestige": {
             "title": "Prestige premium",
             "description": "The Sector W address commands a 30–50% premium over comparable custom villa communities."
+          }
+        }
+      }
+    }
+  },
+  "projects": {
+    "index": {
+      "eyebrow": "Projects",
+      "title": "Live projects worth watching.",
+      "subtitle": "A short list of active developments across the UAE — briefed with the same discipline as a private mandate: developer, location, product, price signal, timeline."
+    },
+    "detail": {
+      "backTo": "All projects",
+      "brandLabel": "Brand",
+      "overviewHeading": "Overview",
+      "highlightsHeading": "Why it matters",
+      "unitTypesHeading": "Product mix",
+      "paymentPlanHeading": "Payment plan",
+      "paymentPlanUnpublished": "Not published — available on request.",
+      "galleryHeading": "Gallery",
+      "askAbout": "I'd like to discuss",
+      "inquireCta": "Enquire about this project",
+      "factsHeadings": {
+        "developer": "Developer",
+        "brand": "Brand",
+        "location": "Location",
+        "status": "Status",
+        "handover": "Handover",
+        "startingPrice": "Starting from"
+      },
+      "statusLabels": {
+        "off-plan": "Off-plan"
+      },
+      "tba": "To be announced",
+      "uponRequest": "Upon request"
+    },
+    "items": {
+      "hq-by-rove": {
+        "name": "HQ by Rove — Marasi Bay",
+        "location": "Marasi Bay Marina, Business Bay · Dubai",
+        "summary": "The region's first hospitality-branded office building — 23 office floors on Marasi Bay Marina, 120,000 sq ft of amenities, and an HQ Desk concierge in partnership with Cushman & Wakefield Core.",
+        "overview": "HQ by Rove is IRTH Urban Development's answer to the tired glass-tower office — a next-generation, hospitality-led concept that integrates work, life, and play. Set on a 76,000 sq ft plot at Marasi Bay Marina in Business Bay, the 23-office-floor building carries the Rove Hotels brand — Rove being the Emaar Properties × Dubai Holding joint venture — and treats the workplace the way Rove treats a hotel: 24/7 service, concierge, and a curated amenity core baked into the lease. Fully-furnished and fully-serviced modular offices for every team size sit alongside Grade-A commercial floor plates.\n\nThat amenity core runs to 120,000 sq ft — 28% of the entire project — stretching across a dedicated podium (\"HQ Land\"), a mid-tower amenity floor (\"Reset 16\"), a rooftop \"OOO\" observation deck, an arcade level with private road access, and a lobby-level \"Hub\" and food hall (\"The Block\"). Padel and basketball courts, a fully-fitted gym, a yoga studio, a podcast cabin, floating treehouse pods, a semi-Olympic pool with spa/steam/sauna, event spaces, and a beauty lounge sit alongside 14 destination-controlled high-speed passenger lifts and 988 parking bays. HQ owners also plug into Rove Connect — preferential rates across Rove Hotels and cafés, priority access to future Rove-branded launches, and enterprise-class concierge services delivered through the HQ Desk in partnership with Cushman & Wakefield Core. Marasi Bay itself is set to host the first beach club in the Burj Khalifa District.",
+        "types": ["Studio", "Deluxe", "Executive", "Simplex Edge", "Loft Edge", "Penthouse Lofts", "A la carte"],
+        "paymentPlan": "Mortgage-friendly plan direct from IRTH: 15% down payment, then 5% on 1 November 2025, 5% on 1 April 2026, 5% on 1 September 2026, 5% on 1 February 2027, 5% at 40% construction (on or before 1 December 2027), 5% at 60% construction (on or before 1 May 2028), 5% at 80% construction (on or before 1 November 2028), and the final 50% on completion. Anticipated handover Q1 2029.",
+        "highlights": {
+          "hospitality-brand": {
+            "title": "Hospitality-led workplace",
+            "description": "Operated the way Rove Hotels are operated — 24/7 service, concierge, F&B and events layered under the office lease. Rove is Emaar × Dubai Holding's joint venture brand, extended here into workplace for the first time."
+          },
+          "amenities-120k": {
+            "title": "120,000 sq ft of amenities — 28% of the project",
+            "description": "One of the largest single-building amenity programmes in Dubai — fully-fitted gym, semi-Olympic pool, spa/steam/sauna pods, food hall (\"The Block\"), padel and basketball courts, podcast cabin, yoga space, event spaces, floating treehouse pods, and a rooftop observation deck. Sized so members almost never need to leave the building."
+          },
+          "lifestyle-mix": {
+            "title": "23 office floors, up to 22 modular units per floor",
+            "description": "Product ranges from studio-sized modular offices to Simplex full-floor plates and Penthouse Lofts. 14 destination-controlled high-speed passenger lifts, 988 parking bays across 8 floors, dedicated EV charging and bicycle parking."
+          },
+          "rooftop-deck": {
+            "title": "HQ Desk concierge with Cushman & Wakefield Core",
+            "description": "IRTH's strategic partnership with Cushman & Wakefield Core delivers enterprise-class concierge inside the building — professional call handling, dedicated account manager, IT support, meeting-room bookings, and mail/courier management for tenants of every size."
+          }
+        }
+      },
+      "palm-jebel-ali": {
+        "name": "Palm Jebel Ali",
+        "location": "Palm Jebel Ali · Dubai",
+        "summary": "Nakheel's revived crown jewel — a palm-shaped megaproject twice the scale of Palm Jumeirah, redesigned as an exclusive collection of 5-to-7-bedroom beachfront villas from 7,316 sq ft, freehold for all nationalities.",
+        "overview": "Nakheel Properties has taken Palm Jebel Ali off its long pause and re-cast it as the reference beachfront villa product for the next decade. The master plan runs to seven fronds and a trunk, each frond effectively a private beach community wrapped in Nakheel's own infrastructure, retail and hotel commitments. Villas are sold as an exclusive collection of 5, 6 and 7-bedroom homes, freehold for all nationalities, starting from 7,316 sq ft, with released colourways including Azure Blue, Indigo Ocean, Blue Horizon, Ruby Sunset and Red Aurora.\n\nExecution is now visibly on the ground. In April 2026, Nakheel awarded AED 3.5 billion in construction contracts covering 544 villas across the earliest fronds, with roughly AED 750 million of separate infrastructure works — roads, utilities, power distribution, telecoms — targeted for completion by the end of 2026. Sales have proceeded in phased releases under a 20% on booking · 80% during construction payment structure, per the broker page.",
+        "types": ["5-bedroom villa · Azure Blue", "5-bedroom villa · Indigo Ocean", "6-bedroom villa · Blue Horizon", "6-bedroom villa · Roof", "7-bedroom villa · Ruby Sunset", "7-bedroom villa · Red Aurora"],
+        "handoverText": "Initial residences anticipated end of 2027 · Q4 2028 for the 544-villa contract phase awarded in 2026",
+        "priceSourceNote": "Indicative broker-listed information; subject to change.",
+        "paymentPlan": "20% on booking · 80% during construction, as listed on the All Properties broker page. Nakheel's own site does not currently publish a public schedule, and terms have varied per release; the applicable plan is confirmed with Nakheel at time of registration.",
+        "highlights": {
+          "master-plan-scale": {
+            "title": "Twice the scale of Palm Jumeirah",
+            "description": "Seven fronds and a trunk — the master plan is roughly double the footprint of the original Palm, giving Nakheel room to redesign around private beach frontage rather than density. Villas start at 7,316 sq ft."
+          },
+          "beach-frontage": {
+            "title": "Private beach per frond villa",
+            "description": "Frond villas front their own private stretches of Gulf beach and interior lagoons, with dining pavilions and infinity pools engineered around the waterline — the same product feature that made Palm Jumeirah's frond villas the most protected asset in Dubai."
+          },
+          "payment-plan-20-80": {
+            "title": "20% on booking · 80% during construction",
+            "description": "Broker-listed payment structure keeps the buyer's exposure loaded during the build window rather than at handover — improving deployment IRR on unfinished stock. Freehold for all nationalities."
+          },
+          "nakheel-master-plan": {
+            "title": "Nakheel-controlled infrastructure",
+            "description": "Roads, utilities and community infrastructure are Nakheel Properties' own delivery — not a third-party contractor's — which historically shortens the gap between infrastructure handover and the first residents moving in. Amenities across the master plan include tennis courts, community pools, jogging tracks and children's play areas."
+          }
+        }
+      },
+      "bayn-by-ora": {
+        "name": "Bayn by ORA",
+        "location": "Ghantoot · Abu Dhabi",
+        "summary": "ORA Developers' master-planned beachfront community on the Ghantoot coast — a full destination pairing 3–5 BR villas and mansions with a private beach, marina, lagoons, retail, hospitality and a published 60/40 payment plan.",
+        "overview": "Bayn by ORA is a master-planned luxury coastal community on the Ghantoot coast — the strip that connects Abu Dhabi to Dubai and has historically been reserved for royal and government uses. ORA Developers has positioned it as a full destination rather than a residential enclave: beach and marina alongside lagoons, parks, retail, schools, healthcare and a resort-led hospitality component, designed to support consistent end-user demand rather than pure investor churn.\n\nThe launch release is an exclusive collection of 3-to-5-bedroom beachfront villas and mansions plus a limited number of plots, sized for buyers who want a primary or secondary residence with resort-grade amenity and single-hop access to both emirates. The site sits 7 minutes from Palm Jebel Ali, 15 minutes from Al Maktoum International Airport, and 30 minutes from both Downtown Dubai and Downtown Abu Dhabi. Starting price is on request; a 60/40 payment plan — 10% at booking, 50% during construction, 40% on handover — is published as the standard structure.",
+        "types": ["3-bedroom beachfront villa", "4-bedroom beachfront villa", "5-bedroom beachfront villa", "Mansions", "Limited plots"],
+        "paymentPlan": "60/40 published by ORA — 10% down payment on booking, 50% in flexible installments during construction, and the final 40% on handover.",
+        "highlights": {
+          "private-beach": {
+            "title": "Private beach & waterfront promenade",
+            "description": "The community fronts its own stretch of Ghantoot coastline with a private beach, waterfront promenade, and walking, jogging and cycling tracks — a rare piece of buildable UAE coastline that isn't already an occupied resort."
+          },
+          "marina": {
+            "title": "Marina & yacht berthing",
+            "description": "An on-community marina with yacht berthing facilities removes the drive to Dubai Marina, Mina Rashid or Yas — a hard-to-replicate amenity for boat-owning end-users on the Ghantoot corridor."
+          },
+          "lagoon-living": {
+            "title": "Lagoon living & a full-destination masterplan",
+            "description": "Internal water features and lagoon-fronting villas extend the waterfront experience inland. Bayn is planned as a full destination — retail and dining, community essentials, parks, schools, healthcare and a resort-led hospitality component — rather than a residential enclave."
+          },
+          "location-between-emirates": {
+            "title": "Between Dubai and Abu Dhabi",
+            "description": "7 min to Palm Jebel Ali · 15 min to Al Maktoum International Airport · 30 min to Downtown Dubai · 30 min to Downtown Abu Dhabi. Ghantoot puts residents inside the daily commute range of both emirates without committing to either — useful for buyers whose lives split between the two."
           }
         }
       }

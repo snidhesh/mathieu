@@ -27,6 +27,7 @@ export function Nav() {
 
   const links: NavLink[] = [
     { href: '/properties', label: t('properties') },
+    { href: '/projects', label: t('projects') },
     { href: '/communities', label: t('communities') },
     { href: '/insights', label: t('insights') },
     { href: '/about', label: t('about') },

@@ -83,6 +83,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       className={`${juliusSans.variable} ${sourceSans.variable} ${amiri.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full bg-obsidian text-porcelain flex flex-col">
         <NextIntlClientProvider locale={locale}>

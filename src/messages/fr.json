@@ -9,6 +9,7 @@
     "about": "À propos",
     "listings": "Opportunités",
     "properties": "Biens",
+    "projects": "Projets",
     "communities": "Quartiers",
     "insights": "Analyses",
     "services": "Services",
@@ -314,6 +315,120 @@
           "prestige": {
             "title": "Prime de prestige",
             "description": "L'adresse Sector W commande une prime de 30 à 50 % par rapport aux villas sur mesure comparables."
+          }
+        }
+      }
+    }
+  },
+  "projects": {
+    "index": {
+      "eyebrow": "Projets",
+      "title": "Des projets à suivre.",
+      "subtitle": "Une courte sélection de projets actifs aux Émirats — brièfée avec la même rigueur qu'un mandat privé : promoteur, emplacement, produit, signal de prix, calendrier."
+    },
+    "detail": {
+      "backTo": "Tous les projets",
+      "brandLabel": "Marque",
+      "overviewHeading": "Aperçu",
+      "highlightsHeading": "Pourquoi c'est intéressant",
+      "unitTypesHeading": "Gamme de produits",
+      "paymentPlanHeading": "Plan de paiement",
+      "paymentPlanUnpublished": "Non publié — disponible sur demande.",
+      "galleryHeading": "Galerie",
+      "askAbout": "Je souhaite discuter de",
+      "inquireCta": "Se renseigner sur ce projet",
+      "factsHeadings": {
+        "developer": "Promoteur",
+        "brand": "Marque",
+        "location": "Emplacement",
+        "status": "Statut",
+        "handover": "Livraison",
+        "startingPrice": "À partir de"
+      },
+      "statusLabels": {
+        "off-plan": "Off-plan"
+      },
+      "tba": "Date à confirmer",
+      "uponRequest": "Sur demande"
+    },
+    "items": {
+      "hq-by-rove": {
+        "name": "HQ by Rove — Marasi Bay",
+        "location": "Marasi Bay Marina, Business Bay · Dubaï",
+        "summary": "Le premier immeuble de bureaux signé hospitalité de la région — 23 étages de bureaux à Marasi Bay Marina, 120 000 pieds carrés d'amenities et un HQ Desk conciergerie en partenariat avec Cushman & Wakefield Core.",
+        "overview": "HQ by Rove est la réponse d'IRTH Urban Development à la tour de bureaux vitrée classique — un concept nouvelle génération, guidé par l'hospitalité, qui fait dialoguer travail, vie et loisir. Implanté sur un terrain de 76 000 pieds carrés à Marasi Bay Marina, dans Business Bay, l'immeuble de 23 étages de bureaux porte la marque Rove Hotels — Rove étant la joint-venture d'Emaar Properties et de Dubai Holding — et traite le lieu de travail comme Rove traite un hôtel : service 24/7, conciergerie et cœur d'amenities intégrés au bail. Des bureaux modulaires entièrement meublés et servicés, dimensionnés pour toutes les tailles d'équipes, cohabitent avec des plateaux commerciaux Grade-A.\n\nCe cœur d'amenities atteint 120 000 pieds carrés — 28 % du projet — répartis sur un podium dédié (« HQ Land »), un étage d'amenities en mi-hauteur (« Reset 16 »), un rooftop panoramique (« OOO »), un arcade level avec accès routier privé, et un « Hub » de lobby avec food hall (« The Block »). Terrains de padel et de basket, salle de sport entièrement équipée, studio de yoga, cabine podcast, floating treehouse pods, piscine semi-olympique avec spa/hammam/sauna, espaces événementiels et beauty lounge cohabitent avec 14 ascenseurs à haute vitesse à commande de destination et 988 places de parking. Les propriétaires HQ profitent aussi de Rove Connect — tarifs préférentiels sur le réseau Rove Hotels et cafés, accès prioritaire aux prochains lancements Rove, et services de conciergerie enterprise-class livrés via le HQ Desk en partenariat avec Cushman & Wakefield Core. Marasi Bay accueillera d'ailleurs le premier beach club du Burj Khalifa District.",
+        "types": ["Studio", "Deluxe", "Executive", "Simplex Edge", "Loft Edge", "Penthouse Lofts", "À la carte"],
+        "paymentPlan": "Plan de paiement mortgage-friendly proposé directement par IRTH : 15 % à la réservation, puis 5 % le 1er novembre 2025, 5 % le 1er avril 2026, 5 % le 1er septembre 2026, 5 % le 1er février 2027, 5 % à 40 % d'avancement (au plus tard le 1er décembre 2027), 5 % à 60 % (au plus tard le 1er mai 2028), 5 % à 80 % (au plus tard le 1er novembre 2028), et les 50 % finaux à la livraison. Livraison attendue au Q1 2029.",
+        "highlights": {
+          "hospitality-brand": {
+            "title": "Un lieu de travail façon hôtellerie",
+            "description": "L'immeuble est exploité comme un Rove Hotel — service 24/7, conciergerie, F&B et événements superposés au bail de bureau. Rove, joint-venture d'Emaar et Dubai Holding, s'étend ici au monde du travail pour la première fois."
+          },
+          "amenities-120k": {
+            "title": "120 000 pieds carrés d'amenities — 28 % du projet",
+            "description": "L'un des plus grands programmes d'amenities d'un seul immeuble à Dubaï — salle de sport, piscine semi-olympique, cabines spa/hammam/sauna, food hall (« The Block »), padel et basket, cabine podcast, studio de yoga, espaces événementiels, floating treehouse pods et rooftop panoramique. Dimensionné pour que les membres n'aient quasiment jamais à sortir."
+          },
+          "lifestyle-mix": {
+            "title": "23 étages de bureaux, jusqu'à 22 unités modulaires par étage",
+            "description": "L'offre va du bureau modulaire de type studio aux plateaux complets Simplex et aux Penthouse Lofts. 14 ascenseurs à haute vitesse à commande de destination, 988 places de parking sur 8 étages, bornes de recharge VE et parking vélos dédiés."
+          },
+          "rooftop-deck": {
+            "title": "HQ Desk conciergerie avec Cushman & Wakefield Core",
+            "description": "Le partenariat stratégique entre IRTH et Cushman & Wakefield Core apporte une conciergerie enterprise-class directement dans l'immeuble — traitement des appels, account manager dédié, support IT, réservations de salles et gestion du courrier, pour des occupants de toutes tailles."
+          }
+        }
+      },
+      "palm-jebel-ali": {
+        "name": "Palm Jebel Ali",
+        "location": "Palm Jebel Ali · Dubaï",
+        "summary": "Le retour du projet phare de Nakheel — un archipel en forme de palmier deux fois plus grand que Palm Jumeirah, redessiné en collection exclusive de villas de 5 à 7 chambres en front de mer, à partir de 7 316 pieds carrés, en freehold pour toutes les nationalités.",
+        "overview": "Nakheel Properties a relancé Palm Jebel Ali après une longue pause et l'a repositionné comme la référence villa front de mer pour la décennie qui vient. Le masterplan s'articule autour de sept fronds et d'un tronc, chaque fronds fonctionnant comme une communauté de plage privée avec ses propres infrastructures, commerces et hôtels signés Nakheel. Les villas sont commercialisées comme une collection exclusive de maisons de 5, 6 et 7 chambres, en freehold pour toutes les nationalités, à partir de 7 316 pieds carrés, avec des palettes de finition lancées sous les noms Azure Blue, Indigo Ocean, Blue Horizon, Ruby Sunset et Red Aurora.\n\nLa mise en œuvre est désormais visible sur le terrain. En avril 2026, Nakheel a attribué 3,5 milliards d'AED de contrats pour 544 villas sur les premiers fronds, avec environ 750 millions d'AED de travaux d'infrastructure séparés — voirie, réseaux, distribution électrique, télécoms — visés pour fin 2026. La commercialisation se fait par vagues successives, sous un plan de paiement 20 % à la réservation · 80 % pendant la construction, tel qu'affiché par le courtier.",
+        "types": ["Villa 5 chambres · Azure Blue", "Villa 5 chambres · Indigo Ocean", "Villa 6 chambres · Blue Horizon", "Villa 6 chambres · Roof", "Villa 7 chambres · Ruby Sunset", "Villa 7 chambres · Red Aurora"],
+        "handoverText": "Premières résidences attendues fin 2027 · Q4 2028 pour la phase des 544 villas attribuée en 2026",
+        "priceSourceNote": "Information indicative issue d'un courtier ; susceptible d'évoluer.",
+        "paymentPlan": "20 % à la réservation · 80 % pendant la construction, tel qu'affiché sur la page du courtier All Properties. Le site de Nakheel ne publie pas de calendrier officiel et les conditions ont varié selon les phases de commercialisation ; le plan applicable est confirmé avec Nakheel au moment de l'enregistrement.",
+        "highlights": {
+          "master-plan-scale": {
+            "title": "Deux fois l'échelle de Palm Jumeirah",
+            "description": "Sept fronds et un tronc — le masterplan est environ deux fois plus étendu que le Palm original, laissant à Nakheel la marge de le redessiner autour de la plage privée plutôt que de la densité. Les villas démarrent à 7 316 pieds carrés."
+          },
+          "beach-frontage": {
+            "title": "Plage privée par villa de fronds",
+            "description": "Les villas de fronds donnent directement sur leur portion privée de plage du Golfe et sur des lagons intérieurs, avec pavillons de restauration et piscines à débordement conçus autour de la ligne d'eau — la même caractéristique qui a fait des villas de fronds de Palm Jumeirah l'actif le plus protégé de Dubaï."
+          },
+          "payment-plan-20-80": {
+            "title": "20 % à la réservation · 80 % pendant la construction",
+            "description": "Ce plan de paiement, tel qu'affiché par un courtier, concentre l'exposition de l'acquéreur pendant la phase de construction plutôt qu'à la livraison — ce qui améliore le TRI de déploiement sur du stock inachevé. Freehold pour toutes les nationalités."
+          },
+          "nakheel-master-plan": {
+            "title": "Infrastructures pilotées par Nakheel",
+            "description": "Voirie, réseaux et infrastructures communautaires sont livrés par Nakheel Properties elle-même — pas par un contractant tiers — ce qui, historiquement, raccourcit le délai entre la livraison des infrastructures et l'arrivée des premiers résidents. Le masterplan intègre courts de tennis, piscines communautaires, pistes de jogging et aires de jeux pour enfants."
+          }
+        }
+      },
+      "bayn-by-ora": {
+        "name": "Bayn by ORA",
+        "location": "Ghantoot · Abu Dhabi",
+        "summary": "La communauté master-planned en front de mer signée ORA Developers sur la côte de Ghantoot — une destination complète associant villas et hôtels particuliers 3–5 chambres à une plage privée, une marina, des lagons, du retail, un volet hôtelier et un plan de paiement 60/40 publié.",
+        "overview": "Bayn by ORA est une communauté côtière de luxe master-planned sur la côte de Ghantoot — la bande qui relie Abu Dhabi à Dubaï et qui a longtemps été réservée à des usages royaux ou gouvernementaux. ORA Developers la positionne comme une véritable destination et non comme une simple enclave résidentielle : plage et marina, lagons, parcs, retail, écoles, santé et un volet hôtelier de type resort, pensés pour soutenir une demande end-user durable plutôt qu'une rotation purement investisseur.\n\nLe premier release est une collection exclusive de villas et hôtels particuliers en front de mer de 3 à 5 chambres, plus un nombre limité de parcelles, dimensionnés pour des acquéreurs cherchant une résidence principale ou secondaire avec un cadre resort et un accès à un seul saut entre les deux émirats. Le site est à 7 minutes de Palm Jebel Ali, 15 minutes de l'aéroport international Al Maktoum et 30 minutes de Downtown Dubaï comme de Downtown Abu Dhabi. Le prix de départ est sur demande ; un plan de paiement 60/40 — 10 % à la réservation, 50 % pendant la construction, 40 % à la livraison — est publié comme structure standard.",
+        "types": ["Villa 3 chambres en front de mer", "Villa 4 chambres en front de mer", "Villa 5 chambres en front de mer", "Hôtels particuliers", "Parcelles exclusives (nombre limité)"],
+        "paymentPlan": "Plan de paiement 60/40 publié par ORA — 10 % à la réservation, 50 % en versements flexibles pendant la construction, et les 40 % finaux à la livraison.",
+        "highlights": {
+          "private-beach": {
+            "title": "Plage privée & promenade en front de mer",
+            "description": "La communauté donne sur sa propre portion du littoral de Ghantoot avec plage privée, promenade et pistes de marche, jogging et vélo — un des rares segments constructibles du littoral émirien qui n'est pas déjà occupé par un resort."
+          },
+          "marina": {
+            "title": "Marina & amarrage de yachts",
+            "description": "Une marina avec places de yacht sur la communauté supprime le trajet vers Dubai Marina, Mina Rashid ou Yas — un amenity difficile à répliquer pour les propriétaires de bateau sur le corridor de Ghantoot."
+          },
+          "lagoon-living": {
+            "title": "Vie autour des lagons & masterplan complet",
+            "description": "Plans d'eau internes et villas en front de lagon prolongent l'expérience côtière vers l'intérieur. Bayn est conçu comme une destination complète — retail et restauration, essentiels de communauté, parcs, écoles, santé et volet hôtelier de type resort — plutôt que comme une enclave résidentielle."
+          },
+          "location-between-emirates": {
+            "title": "Entre Dubaï et Abu Dhabi",
+            "description": "7 min de Palm Jebel Ali · 15 min de l'aéroport international Al Maktoum · 30 min de Downtown Dubaï · 30 min de Downtown Abu Dhabi. Ghantoot place ses résidents dans la zone de trajet quotidien des deux émirats sans les obliger à choisir — utile pour des acquéreurs dont la vie se partage entre les deux."
           }
         }
       }
