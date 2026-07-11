@@ -10,6 +10,20 @@ export function About() {
       id="about"
       className="relative py-20 lg:py-32 px-6 lg:px-12 overflow-hidden"
     >
+      {/* Mobile: portrait glued behind the copy with obsidian gradient overlays.
+          Desktop keeps the two-column card layout below. */}
+      <div className="lg:hidden absolute inset-0" aria-hidden="true">
+        <Image
+          src="/portraits/mathieu.png"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-contain object-[85%_20%] grayscale-[70%] opacity-40"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-obsidian/85 via-obsidian/70 to-obsidian" />
+        <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/60 to-obsidian/20" />
+      </div>
+
       <div className="mx-auto max-w-6xl relative z-10">
         <FadeIn>
           <p className="text-[11px] tracking-[0.35em] uppercase text-porcelain">
@@ -43,10 +57,10 @@ export function About() {
                   (key) => (
                     <p
                       key={key}
-                      className="text-[11px] tracking-[0.2em] uppercase text-porcelain"
+                      className="flex items-start gap-3 text-[11px] tracking-[0.2em] uppercase text-porcelain leading-relaxed"
                     >
-                      <span className="text-porcelain-dim mr-3">—</span>
-                      {t(key)}
+                      <span className="text-porcelain-dim shrink-0">—</span>
+                      <span>{t(key)}</span>
                     </p>
                   ),
                 )}
@@ -54,13 +68,14 @@ export function About() {
             </FadeIn>
           </div>
 
-          <FadeIn delay={0.15} className="lg:col-span-5 lg:h-full">
-            <div className="relative aspect-[3/4] lg:aspect-auto lg:h-full w-full overflow-hidden">
+          {/* Desktop-only portrait column — mobile uses the glued background above */}
+          <FadeIn delay={0.15} className="hidden lg:block lg:col-span-5 lg:h-full">
+            <div className="relative lg:h-full w-full overflow-hidden">
               <Image
                 src="/portraits/mathieu.png"
                 alt="Mathieu Poissonnet"
                 fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
+                sizes="40vw"
                 className="object-cover grayscale-[70%]"
               />
             </div>
