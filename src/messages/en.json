@@ -12,6 +12,9 @@
     "projects": "Projects",
     "communities": "Communities",
     "insights": "Insights",
+    "marketIntelligence": "Market Intelligence",
+    "theMarket": "The Market",
+    "aboutMe": "About Me",
     "services": "Services",
     "testimonials": "Reviews",
     "contact": "Contact",
@@ -708,6 +711,81 @@
     "rera": "Currently at",
     "reraNumber": "BlackOak Real Estate",
     "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "whatsappGroup": {
+      "cta": "WhatsApp group"
+    },
     "placeholderNote": "Personal profile of Mathieu Poissonnet. Stat figures on this page are illustrative pending final review. Bio and contact information sourced from a public LinkedIn profile."
+  },
+  "marketIntelligence": {
+    "eyebrow": "Market Intelligence",
+    "title": "Dubai off-plan market briefings, sent to your inbox.",
+    "description": "Quarterly market reports, developer intel, and live commentary on where the Dubai off-plan cycle sits — for private investors who prefer numbers to noise.",
+    "latestReport": "Latest report",
+    "downloadCta": "Download report",
+    "viewAllCta": "View report",
+    "brief": {
+      "eyebrow": "H1 2026 market brief",
+      "title": "Off-plan still doing the heavy lifting.",
+      "body": "Dubai residential closed H1 2026 at AED 221.3 billion in sales — off-plan accounted for roughly 76% of transactions in June and 75% of value in Q1. Average pricing hit AED 2,050 psf, the highest on record and up 42% since 2021. Knight Frank now forecasts price growth to moderate to 5–8% across 2026 as roughly 120,000 units come to handover.",
+      "stats": {
+        "salesValue": "H1 2026 residential sales",
+        "offPlanShare": "Off-plan share (June)",
+        "avgPsf": "Average price psf (Q1)",
+        "handovers": "Units handing over in 2026"
+      },
+      "communitiesTitle": "Communities in focus",
+      "communitiesBody": "Palm Jebel Ali is dominating investor conversations — twice the size of Palm Jumeirah, with early villa rows now delivering. Dubai Hills continues to compound as a lived-in Emaar community. Dubai South is where the entry-price appreciation is quietly stacking up. Business Bay holds for rental yield, and Emaar Beachfront's Beachgate and Bayview towers extend Dubai Harbour's waterfront pipeline.",
+      "sourceNote": "Figures compiled from public H1 2026 releases (Dubai Land Department, Reidin, Knight Frank, Emirates NBD, Bayut/Dubizzle). Updated at each quarter-end."
+    },
+    "reports": {
+      "off-plan-h1-2026": {
+        "title": "Off-plan H1 2026: 76% market share and a record AED 2,050 psf",
+        "description": "The half-year data is in — off-plan drove 76% of June transactions and 75% of Q1 value. Average pricing set a new record while volumes remained tight to supply. What that means for pricing discipline in Q3."
+      },
+      "palm-jebel-ali-focus": {
+        "title": "Palm Jebel Ali: the community every investor is asking about",
+        "description": "Twice the size of Palm Jumeirah, backed by Nakheel, with first villa rows now handing over. A pragmatic look at pricing tiers, absorption pace, and which fronds are pricing rationally versus emotionally."
+      },
+      "handover-wave-2026": {
+        "title": "The 2026 handover wave: 120,000 units — priced in yet?",
+        "description": "Roughly 120,000 units are scheduled to complete in Dubai in 2026. Knight Frank calls for growth to moderate to 5–8% versus 12–22% in 2024–25. Where the supply pressure lands hardest — and where it doesn't."
+      }
+    },
+    "form": {
+      "title": "Subscribe to future market reports",
+      "email": "Email",
+      "firstName": "First name (optional)",
+      "consent": "Email me future Dubai off-plan market reports and updates. I can unsubscribe at any time.",
+      "submit": "Subscribe",
+      "submitting": "Sending…",
+      "privacyLink": "Privacy policy",
+      "errors": {
+        "email": "Email is required.",
+        "emailInvalid": "Please enter a valid email address.",
+        "consent": "Please tick the consent box to continue.",
+        "serverError": "Something went wrong. Please try again."
+      },
+      "success": {
+        "title": "You're on the list.",
+        "body": "The next Dubai market report will land in your inbox on release."
+      },
+      "error": {
+        "title": "We couldn't complete your subscription.",
+        "body": "Please try again in a moment. If the problem persists, contact us directly.",
+        "retry": "Retry"
+      }
+    },
+    "whatsappGroup": {
+      "title": "The private WhatsApp circle",
+      "description": "A small, invite-based WhatsApp group for live commentary between reports — launch alerts, price movements, allocation windows, and short-form takes the reports don't cover. First-come access.",
+      "cta": "Request access"
+    }
+  },
+  "privacy": {
+    "title": "Privacy",
+    "updatedAt": "Last updated: to be added by the client",
+    "body": "This is a placeholder privacy notice for the Mathieu Poissonnet website. It should be replaced with the client's finalised policy before launch.\n\nWhen you submit the Market Intelligence subscription form, we collect your email address, an optional first name, and a timestamped record of your consent. We use these to send you the reports you asked for. The list is managed with Resend; unsubscribe links appear on every broadcast.\n\nContact form messages are delivered by Resend to a private inbox and used only to reply to your enquiry.",
+    "contact": "For questions about this notice or to request removal, use the contact page."
   }
 }

@@ -79,3 +79,14 @@ body {
 .loader-cursor {
   animation: loader-blink 0.9s steps(2, jump-none) infinite;
 }
+
+/* Honeypot / offscreen field: present in DOM for bots, invisible to users,
+   removed from accessibility tree via aria-hidden on the wrapper element. */
+.sr-only-offscreen {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

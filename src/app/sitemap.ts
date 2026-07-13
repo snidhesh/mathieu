@@ -13,10 +13,12 @@ const STATIC_ROUTES = [
   '/properties',
   '/projects',
   '/communities',
+  '/market-intelligence',
   '/insights',
   '/about',
   '/services',
   '/contact',
+  '/privacy',
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {

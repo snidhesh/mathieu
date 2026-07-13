@@ -1,4 +1,6 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
+import { WhatsAppGroupButton } from './WhatsAppGroupButton';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -10,6 +12,15 @@ export function Footer() {
         <div>
           <p className="font-display text-2xl text-porcelain">{agentName}</p>
           <p className="mt-2 text-sm text-porcelain-dim">{t('brokerage')}</p>
+          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
+            <WhatsAppGroupButton variant="footer" />
+            <Link
+              href="/privacy"
+              className="text-[11px] tracking-[0.2em] uppercase text-porcelain-dim hover:text-porcelain transition-colors"
+            >
+              {t('privacy')}
+            </Link>
+          </div>
         </div>
         <div className="text-[11px] tracking-[0.2em] uppercase text-porcelain-dim space-y-2">
           <p>

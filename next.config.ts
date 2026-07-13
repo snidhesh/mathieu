@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       { pathname: '/projects/**', search: '' },
       { pathname: '/projects/**', search: '?v1' },
       { pathname: '/portraits/**', search: '' },
+      { pathname: '/market-intelligence/**', search: '' },
     ],
   },
 };

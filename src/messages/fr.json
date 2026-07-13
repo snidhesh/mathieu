@@ -12,6 +12,9 @@
     "projects": "Projets",
     "communities": "Quartiers",
     "insights": "Analyses",
+    "marketIntelligence": "Intelligence de marché",
+    "theMarket": "Le Marché",
+    "aboutMe": "À propos de moi",
     "services": "Services",
     "testimonials": "Avis",
     "contact": "Contact",
@@ -708,6 +711,81 @@
     "rera": "Actuellement chez",
     "reraNumber": "BlackOak Real Estate",
     "rights": "Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "whatsappGroup": {
+      "cta": "Groupe WhatsApp"
+    },
     "placeholderNote": "Profil personnel de Mathieu Poissonnet. Les chiffres présentés sont illustratifs, en attente de validation finale. Bio et coordonnées issues d'un profil LinkedIn public."
+  },
+  "marketIntelligence": {
+    "eyebrow": "Intelligence de marché",
+    "title": "Notes de marché off-plan à Dubaï, livrées dans votre boîte mail.",
+    "description": "Rapports trimestriels, informations promoteurs et commentaires en direct sur le cycle off-plan de Dubaï — pour les investisseurs privés qui préfèrent les chiffres au bruit.",
+    "latestReport": "Dernier rapport",
+    "downloadCta": "Télécharger le rapport",
+    "viewAllCta": "Voir le rapport",
+    "brief": {
+      "eyebrow": "Brief de marché · S1 2026",
+      "title": "L'off-plan continue de porter le marché.",
+      "body": "Le résidentiel dubaïote a clôturé le S1 2026 à 221,3 milliards AED de ventes — l'off-plan représente environ 76 % des transactions de juin et 75 % de la valeur au T1. Le prix moyen a atteint 2 050 AED/pied², un record historique en hausse de 42 % depuis 2021. Knight Frank anticipe une modération à 5–8 % de croissance sur 2026, alors qu'environ 120 000 unités arrivent en livraison.",
+      "stats": {
+        "salesValue": "Ventes résidentielles S1 2026",
+        "offPlanShare": "Part de l'off-plan (juin)",
+        "avgPsf": "Prix moyen au pied² (T1)",
+        "handovers": "Unités livrées en 2026"
+      },
+      "communitiesTitle": "Quartiers à surveiller",
+      "communitiesBody": "Palm Jebel Ali concentre l'attention des investisseurs — deux fois la taille de Palm Jumeirah, portée par Nakheel, avec les premières rangées de villas en livraison. Dubai Hills continue de s'imposer comme une communauté Emaar mature. Dubai South reste le pari d'entrée de gamme où l'appréciation se construit. Business Bay tient pour le rendement locatif, et Emaar Beachfront prolonge le pipeline waterfront avec les tours Beachgate et Bayview à Dubai Harbour.",
+      "sourceNote": "Chiffres compilés à partir de sources publiques du S1 2026 (Dubai Land Department, Reidin, Knight Frank, Emirates NBD, Bayut/Dubizzle). Mis à jour à chaque fin de trimestre."
+    },
+    "reports": {
+      "off-plan-h1-2026": {
+        "title": "Off-plan S1 2026 : 76 % de part de marché et un record à 2 050 AED/pied²",
+        "description": "Les données semestrielles sont là — l'off-plan a porté 76 % des transactions de juin et 75 % de la valeur au T1. Le prix moyen établit un nouveau record. Ce que cela implique pour la discipline de prix au T3."
+      },
+      "palm-jebel-ali-focus": {
+        "title": "Palm Jebel Ali : la communauté que chaque investisseur évoque",
+        "description": "Deux fois la taille de Palm Jumeirah, portée par Nakheel, avec les premières villas en livraison. Un regard pragmatique sur les tranches de prix, la vitesse d'absorption et les frondes qui se valorisent rationnellement."
+      },
+      "handover-wave-2026": {
+        "title": "La vague de livraisons 2026 : 120 000 unités — déjà intégrées ?",
+        "description": "Environ 120 000 unités doivent être livrées à Dubaï en 2026. Knight Frank anticipe une croissance modérée à 5–8 %, contre 12–22 % en 2024–25. Où la pression de l'offre se fera sentir — et où non."
+      }
+    },
+    "form": {
+      "title": "Recevoir les prochains rapports de marché",
+      "email": "Email",
+      "firstName": "Prénom (facultatif)",
+      "consent": "Je souhaite recevoir les prochains rapports et mises à jour sur le marché off-plan de Dubaï. Je peux me désinscrire à tout moment.",
+      "submit": "S'inscrire",
+      "submitting": "Envoi…",
+      "privacyLink": "Politique de confidentialité",
+      "errors": {
+        "email": "L'email est requis.",
+        "emailInvalid": "Veuillez saisir une adresse email valide.",
+        "consent": "Merci de cocher la case de consentement pour continuer.",
+        "serverError": "Une erreur est survenue. Merci de réessayer."
+      },
+      "success": {
+        "title": "Vous êtes inscrit.",
+        "body": "Le prochain rapport de marché Dubaï arrivera dans votre boîte mail dès sa publication."
+      },
+      "error": {
+        "title": "Nous n'avons pas pu enregistrer votre inscription.",
+        "body": "Merci de réessayer dans un instant. Si le problème persiste, contactez-nous directement.",
+        "retry": "Réessayer"
+      }
+    },
+    "whatsappGroup": {
+      "title": "Le cercle privé WhatsApp",
+      "description": "Un petit groupe WhatsApp sur invitation, pour un suivi en direct entre les rapports — alertes de lancement, mouvements de prix, fenêtres d'allocation et brèves que les rapports ne couvrent pas. Accès au premier arrivé.",
+      "cta": "Demander l'accès"
+    }
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "updatedAt": "Dernière mise à jour : à compléter par le client",
+    "body": "Ceci est un texte de confidentialité provisoire pour le site de Mathieu Poissonnet. Il doit être remplacé par la politique définitive du client avant la mise en ligne.\n\nQuand vous soumettez le formulaire d'inscription Intelligence de marché, nous collectons votre adresse email, un prénom facultatif et un horodatage de votre consentement. Ces informations servent à vous envoyer les rapports demandés. La liste est gérée via Resend ; un lien de désinscription figure sur chaque diffusion.\n\nLes messages du formulaire de contact sont transmis par Resend à une boîte privée et servent uniquement à répondre à votre demande.",
+    "contact": "Pour toute question ou demande de suppression, utilisez la page contact."
   }
 }
