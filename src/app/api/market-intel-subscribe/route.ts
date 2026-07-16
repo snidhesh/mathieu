@@ -232,15 +232,13 @@ export async function POST(req: NextRequest) {
     market_consent_locale: locale,
   };
 
-  // Attempt create with inline Segment + Topic + Properties.
-  // The exact payload shape must be verified against current Resend docs at
-  // implementation time. This is a defensible best-effort implementation.
+  // Segments takes objects with { id }; topics takes { id, subscription }.
   const createBody: Record<string, unknown> = {
     email,
     ...(firstNameRaw ? { first_name: firstNameRaw } : {}),
     unsubscribed: false,
     properties,
-    segments: [segmentId],
+    segments: [{ id: segmentId }],
     topics: [{ id: topicId, subscription: 'opt_in' }],
   };
 
@@ -332,7 +330,11 @@ export async function POST(req: NextRequest) {
         },
         apiKey,
       );
-      if (topic.status < 200 || topic.status >= 300) {
+      if (
+        (topic.status < 200 || topic.status >= 300) &&
+        topic.status !== 404 &&
+        topic.status !== 409
+      ) {
         logEvent('topic-update-failed', { locale, status: topic.status });
         return NextResponse.json(
           { error: 'upstream' },
