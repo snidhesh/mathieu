@@ -348,14 +348,18 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Some other Resend error — never bubble details to the client.
+    // Some other Resend error — never bubble details to the client, but
+    // log the message server-side so we can see what Resend actually said.
+    const errBody = create.body as { name?: unknown; message?: unknown } | null;
     logEvent('create-failed', {
       locale,
       status: create.status,
       errorName:
-        typeof (create.body as { name?: unknown } | null)?.name === 'string'
-          ? String((create.body as { name?: unknown }).name)
-          : 'unknown',
+        typeof errBody?.name === 'string' ? errBody.name : 'unknown',
+      errorMessage:
+        typeof errBody?.message === 'string'
+          ? errBody.message.slice(0, 300)
+          : 'none',
     });
     return NextResponse.json(
       { error: 'upstream' },
